@@ -9,5 +9,4 @@ return {
     },
     dir = get_project_root(),
   },
-
 }
