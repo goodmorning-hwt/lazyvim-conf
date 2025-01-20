@@ -11,4 +11,11 @@ map("n", "<leader>acpe", ":Copilot enable<CR>", opts)
 
 map("n", "<leader>acph", ":Copilot help<CR>", opts)
 
-return {}
+return {
+  {
+    "zbirenbaum/copilot-cmp",
+    config = function()
+      require("copilot_cmp").setup()
+    end,
+  },
+}

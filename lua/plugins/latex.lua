@@ -1,3 +1,6 @@
+if true then
+  return {}
+end
 return {
   -- 加载 luasnip 插件
   "L3MON4D3/LuaSnip",
